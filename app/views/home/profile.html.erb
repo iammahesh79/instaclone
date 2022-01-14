@@ -1,0 +1,100 @@
+
+
+	<div class="container">
+
+		<div class="profile">
+
+			<div class="profile-image">
+
+				<img src="https://hairmanz.com/wp-content/uploads/2020/03/thomas-shelby-peaky-blinders-haircut-8.jpg" alt="">
+
+			</div>
+
+			<div class="profile-user-settings">
+
+				<h1 class="profile-user-name">Thomas Shelby</h1>
+
+				<button class="btn profile-edit-btn">Edit Profile</button>
+
+				<% if session[:first_page] %>
+				<%= link_to "Log Off" ,first_page_logout_path %>		   
+			  <% end %>
+			</div>
+
+			<div class="profile-stats">
+
+				<ul>
+					<li><span class="profile-stat-count">3</span> posts</li>
+					<li><span class="profile-stat-count">20.2m</span> followers</li>
+					<li><span class="profile-stat-count">200</span> following</li>
+				</ul>
+
+			</div>
+
+			
+
+		</div>
+
+	</div>
+
+
+	<div class="container">
+
+		<div class="gallery">
+
+			<div class="gallery-item" tabindex="0">
+
+				<img src="https://miro.medium.com/max/1400/1*9uMwQFlrQZ8uJhTyVdMNww.jpeg" class="gallery-image" alt="">
+
+				<div class="gallery-item-info">
+
+					<ul>
+						<li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fa fa-heart" aria-hidden="true"></i> 10500567</li>
+						<li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fa fa-comment" aria-hidden="true"></i> 45675</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div class="gallery-item" tabindex="0">
+
+				<img src="https://i1.sndcdn.com/artworks-koQSfFbNugJuMEb0-Rm5ykA-t500x500.jpg" class="gallery-image" alt="">
+
+				<div class="gallery-item-info">
+
+					<ul>
+						<li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fa fa-heart" aria-hidden="true"></i> 7654389</li>
+						<li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fa fa-comment" aria-hidden="true"></i>67543 5</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div class="gallery-item" tabindex="0">
+
+				<img src="https://www.gentlemansgazette.com/wp-content/uploads/2016/02/A-classic-look-for-Shelby-he-adds-a-casualness-by-forgoing-the-tie-900x600.jpg" class="gallery-image" alt="">
+
+				<div class="gallery-item-type">
+
+					<span class="visually-hidden">Gallery</span><i class="fas fa-clone" aria-hidden="true"></i>
+
+				</div>
+
+				<div class="gallery-item-info">
+
+					<ul>
+						<li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fa fa-heart" aria-hidden="true"></i> 8764642</li>
+						<li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fa fa-comment" aria-hidden="true"></i> 78665</li>
+					</ul>
+
+				</div>
+
+			</div>
+	
+		</div>
+
+	</div>
+	<!-- End of container -->
+
